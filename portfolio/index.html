@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Olafare-Mayowa-portfolio</title>
+  <meta name="description" content="Olafare Mayowa, a frontend web developer who builds fast, responsive websites.">
+  <meta name="theme-color" content="#0a0a16">
+
+  <!-- Link preview (WhatsApp, LinkedIn). Add the image after you host the site. -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Olafare Mayowa | Frontend Web Developer">
+  <meta property="og:description" content="I build fast, responsive websites.">
+  <!-- <meta property="og:image" content="https://YOUR-SITE/images/preview.png"> -->
+
+  <!-- Tab icon -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%236857f2'/%3E%3Ctext x='16' y='23' font-size='20' font-family='sans-serif' font-weight='700' fill='white' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Lets CSS know JavaScript is running (used by scroll reveal) -->
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="header">
+    <div class="container">
+      <a class="logo" href="#home"><span class="logo-mark" aria-hidden="true">&lt;/&gt;</span>Anarxhist_Dev</a>
+
+      <nav class="nav" aria-label="Primary">
+        <ul class="nav-menu" id="nav-menu">
+          <li><a class="nav-link" href="#home">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#skills">Skills</a></li>
+          <li><a class="nav-link" href="#projects">Projects</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="menu-cta"><a class="btn btn-primary" href="#contact">Hire Me</a></li>
+        </ul>
+      </nav>
+
+      <a class="btn btn-primary btn-sm nav-cta" href="#contact">Hire Me</a>
+
+      <button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+
+        <div class="hero-text">
+          <p class="pill fade-up" style="--d:.1s">Frontend web developer</p>
+
+          <h1 class="hero-title" aria-label="Hi, I'm Olafare Mayowa">
+            <span class="hi fade-up" style="--d:.2s" aria-hidden="true">Hi, I'm</span>
+            <span class="name" aria-hidden="true">
+              <span class="word"><span class="letter" style="--i:0">O</span><span class="letter" style="--i:1">l</span><span class="letter" style="--i:2">a</span><span class="letter" style="--i:3">f</span><span class="letter" style="--i:4">a</span><span class="letter" style="--i:5">r</span><span class="letter" style="--i:6">e</span></span>
+              <span class="word"><span class="letter" style="--i:7">M</span><span class="letter" style="--i:8">a</span><span class="letter" style="--i:9">y</span><span class="letter" style="--i:10">o</span><span class="letter" style="--i:11">w</span><span class="letter" style="--i:12">a</span></span>
+            </span>
+          </h1>
+
+          <p class="tagline fade-up" style="--d:.95s">I build fast, responsive websites.</p>
+          <p class="intro fade-up" style="--d:1.05s">
+            Frontend developer with 3+ years of experience turning ideas into clean,
+            reliable websites and web apps with HTML, CSS, JavaScript and React.
+          </p>
+
+          <div class="hero-actions fade-up" style="--d:1.15s">
+            <a class="btn btn-primary" href="#projects">View My Work</a>
+            <a class="btn btn-outline" href="files/Olafare-Mayowa-CV.pdf" download>Download CV</a>
+          </div>
+
+          <div class="tech fade-up" style="--d:1.25s">
+            <p class="tech-label">Technologies I work with</p>
+            <ul class="tech-list">
+              <li style="--dot:#e44d26">HTML</li>
+              <li style="--dot:#2965f1">CSS</li>
+              <li style="--dot:#f7df1e">JavaScript</li>
+              <li style="--dot:#61dafb">React</li>
+              <li style="--dot:#f05033">Git</li>
+              <li style="--dot:#7952b3">Bootstrap</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="hero-visual fade-up" style="--d:.5s">
+          <div class="dots" aria-hidden="true"></div>
+          <div class="photo-frame">
+            <div class="photo-circle"></div>
+            <!--
+              YOUR PHOTO GOES HERE.
+              Use a PNG with a transparent background, save it in the images folder,
+              then remove the comment marks around the line below.
+              <img class="photo" src="images/mayowa.png" alt="Olafare Mayowa, frontend web developer" width="480" height="560">
+            -->
+          </div>
+
+          <div class="code-card" aria-hidden="true">
+            <p class="code-title"><span>&lt;/&gt; Code</span><i class="status"></i></p>
+<pre><code><span class="k">const</span> developer = {
+  name: <span class="s">"Olafare"</span>,
+  skills: [<span class="s">"HTML"</span>, <span class="s">"CSS"</span>,
+    <span class="s">"JavaScript"</span>, <span class="s">"React"</span>],
+  passion: <span class="s">"Building for the web"</span>
+};</code></pre>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="about-text scroll-reveal">
+          <h2 class="section-title">I build websites people enjoy using</h2>
+          <p>I'm a frontend developer from Lagos, Nigeria. I turn ideas into clean, fast websites and web apps that look good and work on every screen.</p>
+          <p>I've built e-commerce sites and a full-stack store with its own admin dashboard. I'm also studying Computer Science at Osun State University.</p>
+        </div>
+        <ul class="stats scroll-reveal" style="transition-delay:.15s">
+          <li><strong data-count="3" data-suffix="+">3+</strong><span>Years of experience</span></li>
+          <li><strong data-count="10" data-suffix="+">10+</strong><span>Happy clients</span></li>
+          <li><strong data-count="100" data-suffix="%">100%</strong><span>Client satisfaction</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <h2 class="section-title scroll-reveal">Skills</h2>
+        <p class="section-sub scroll-reveal">The tools I use to build for the web.</p>
+        <ul class="skills-grid">
+          <li class="skill scroll-reveal" style="--level:0.95;transition-delay:0.00s">
+            <img class="skill-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/html5/html5-original.svg" alt="" width="28" height="28" loading="lazy">
+            <div class="skill-info"><div class="skill-head"><span>HTML</span><span>95%</span></div><div class="bar" aria-hidden="true"><span></span></div></div>
+          </li>
+          <li class="skill scroll-reveal" style="--level:0.9;transition-delay:0.07s">
+            <img class="skill-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/css3/css3-original.svg" alt="" width="28" height="28" loading="lazy">
+            <div class="skill-info"><div class="skill-head"><span>CSS</span><span>90%</span></div><div class="bar" aria-hidden="true"><span></span></div></div>
+          </li>
+          <li class="skill scroll-reveal" style="--level:0.8;transition-delay:0.14s">
+            <img class="skill-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/javascript/javascript-original.svg" alt="" width="28" height="28" loading="lazy">
+            <div class="skill-info"><div class="skill-head"><span>JavaScript</span><span>80%</span></div><div class="bar" aria-hidden="true"><span></span></div></div>
+          </li>
+          <li class="skill scroll-reveal" style="--level:0.75;transition-delay:0.21s">
+            <img class="skill-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/react/react-original.svg" alt="" width="28" height="28" loading="lazy">
+            <div class="skill-info"><div class="skill-head"><span>React</span><span>75%</span></div><div class="bar" aria-hidden="true"><span></span></div></div>
+          </li>
+          <li class="skill scroll-reveal" style="--level:0.8;transition-delay:0.28s">
+            <img class="skill-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/git/git-original.svg" alt="" width="28" height="28" loading="lazy">
+            <div class="skill-info"><div class="skill-head"><span>Git</span><span>80%</span></div><div class="bar" aria-hidden="true"><span></span></div></div>
+          </li>
+          <li class="skill scroll-reveal" style="--level:0.6;transition-delay:0.35s">
+            <img class="skill-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/bootstrap/bootstrap-original.svg" alt="" width="28" height="28" loading="lazy">
+            <div class="skill-info"><div class="skill-head"><span>Bootstrap</span><span>60%</span></div><div class="bar" aria-hidden="true"><span></span></div></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title scroll-reveal">Projects</h2>
+        <p class="section-sub scroll-reveal">A few things I've built. Swipe to see more.</p>
+
+        <div class="projects-track">
+
+          <article class="project-card">
+            <div class="project-media" aria-hidden="true">
+              <img src="images/binfat.jpg" alt="" loading="lazy">
+            </div>
+            <div class="project-body">
+              <h3>Binfat Stationeries</h3>
+              <p>Full-stack e-commerce store with a custom checkout flow and admin dashboard.</p>
+              <ul class="project-tags"><li>React</li><li>Node.js</li><li>Tailwind</li><li>Vite</li></ul>
+            </div>
+            <a class="project-link" href="https://binfat-stationeries.web.app" target="_blank" rel="noopener noreferrer"><span>View Demo<i class="sr-only"> of Binfat Stationeries</i></span></a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-media" aria-hidden="true">
+              <img src="images/hadi.jpg" alt="" loading="lazy">
+            </div>
+            <div class="project-body">
+              <h3>Hadi Skincare</h3>
+              <p>Online store for natural and organic skin care products.</p>
+              <!-- Edit these tags to match what you used -->
+              <ul class="project-tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+            </div>
+            <a class="project-link" href="https://hadiskincare.netlify.app" target="_blank" rel="noopener noreferrer"><span>View Demo<i class="sr-only"> of Hadi Skincare</i></span></a>
+          </article>
+
+        </div>
+        <div class="project-dots" aria-label="Project navigation"></div>
+      </div>
+    </section>
+
+    <!-- ===== WHY WORK WITH ME ===== -->
+    <section class="section section-alt" id="why">
+      <div class="container">
+        <h2 class="section-title scroll-reveal">Why work with me</h2>
+        <p class="section-sub scroll-reveal">What you get when we build together.</p>
+        <ul class="why-grid">
+          <li class="why-item scroll-reveal" style="transition-delay:0.00s"><span class="why-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg></span><h3>Responsive design</h3><p>Your site looks right on phones, tablets and desktops.</p></li>
+          <li class="why-item scroll-reveal" style="transition-delay:0.07s"><span class="why-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg></span><h3>Clean code</h3><p>Organized, readable code that is easy to update later.</p></li>
+          <li class="why-item scroll-reveal" style="transition-delay:0.14s"><span class="why-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13 2L3 14h9l-1 8 10-12h-9z"/></svg></span><h3>Fast, optimized sites</h3><p>Lean pages that load quickly, even on slow connections.</p></li>
+          <li class="why-item scroll-reveal" style="transition-delay:0.21s"><span class="why-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span><h3>Clear communication</h3><p>You get updates and feedback along the way, with no guesswork.</p></li>
+          <li class="why-item scroll-reveal" style="transition-delay:0.28s"><span class="why-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg></span><h3>Real business experience</h3><p>I have built e-commerce stores, including a full-stack one with an admin dashboard.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section" id="contact">
+      <div class="container contact scroll-reveal">
+        <h2 class="section-title">Have a project in mind?</h2>
+        <p>I'm open to new projects. Tell me what you need and I'll reply as soon as I can.</p>
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="mailto:mayowaolafare@gmail.com?subject=Project%20Inquiry">Email Me</a>
+          <a class="btn btn-outline" href="https://wa.me/2349061488972?text=Hi%20Mayowa%2C%20I%27d%20like%20to%20work%20with%20you." target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        </div>
+        <p class="contact-mail"><a href="mailto:mayowaolafare@gmail.com">mayowaolafare@gmail.com</a><button class="copy-btn" type="button" data-copy="mayowaolafare@gmail.com">Copy</button></p>
+        <ul class="social-links">
+        <li><a href="https://github.com/Anarxhist" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg></a></li>
+        <li><a href="https://x.com/Anarxhist_dev" target="_blank" rel="noopener noreferrer" aria-label="X"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4l11.733 16h4.267l-11.733-16zM4 20l6.768-6.768M13.228 10.772L20 4"/></svg></a></li>
+        <li><a href="https://www.instagram.com/anarxhist_1" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg></a></li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year">2026</span> Olafare Mayowa. All rights reserved.</p>
+      <p>Built by Anarxhist_Dev</p>
+    </div>
+  </footer>
+</body>
+</html>
